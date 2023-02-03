@@ -6,11 +6,11 @@
 + 封面需要修改 `thesis_cover.doc` 另存为 `thesis_cover.pdf`, 放在本项目里。参考文献需要在网上查找 `Bibtex` 并填进 `MyLibrary.bib` 之后可以在正文引用。
 + 若在 `overleaf` 上直接编译，打开项目后点 `Menu -> Setting -> Compiler -> XeLatex` 设置编译器为 `XeLatex`，即可正常编译。另外，由于 `overleaf` 本身不支持中文字体 (`SimSun`, `SimHei`, `FangSong_GB2312`, `KaiTi_GB2312`)，本项目从网上找到这些字体并放在项目中。
 
-![图一](Fig/readme_1.png)
+![图一](./Fig/readme_1.png)
 
 + 若在本地 windows 系统上编译，对于 `Texstudio` 同样需要 `选项 -> 设置 -> 构建 -> 默认编译器 -> XeLaTex` 设定。另外Windows下，除了 `KaiTi_GB2312` 外，其他字体均为系统自带。首先需要将 `KaiTi_GB2312.ttf` 放到 `C:\Windows\Fonts`，之后修改 `scutthesis.cls` 将 81-89 行的 `.ttc`, `.ttf` 去掉，从而使用系统自带的字体。
 
-![图二](Fig/readme_2.png)
+![图二](./Fig/readme_2.png)
 
 + 在其他系统如 Linux, MacOS 编译，请查看 `tutorial/scutthesis说明.pdf` 或者 [蒙超恒](https://github.com/mengchaoheng/SCUT_thesis) 原项目下最新文档。
 + [蒙超恒](https://github.com/mengchaoheng/SCUT_thesis) 大佬说本项目最大的特点是基于 `Biber` 而不是 `BibTex`, 暂时未知异同。
