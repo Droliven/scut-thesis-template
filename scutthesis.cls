@@ -23,7 +23,7 @@
 %% import global options
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \newif\ifmasterdegree\masterdegreetrue %默认为doctor
-\newif\ifpdfcover\pdfcovertrue
+\newif\ifpdfcover\pdfcoverfalse
 \newif\ifchapterx\chapterxfalse
 
 \DeclareOption{master}{\masterdegreetrue}
