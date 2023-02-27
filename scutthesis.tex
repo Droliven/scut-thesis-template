@@ -14,6 +14,18 @@
 \usepackage{fancyhdr}
 \usepackage{listings}
 \usepackage{xunicode}
+\usepackage{multirow}
+\usepackage{colortbl}
+% 伪代码尤其是中文贼难搞啊
+\usepackage{algorithm}
+\usepackage{algpseudocode}
+\renewcommand{\algorithmicrequire}{ \textbf{输入:}} 
+\renewcommand{\algorithmicensure}{ \textbf{输出:}}
+% \renewcommand{\algorithmicname}{算法}
+\makeatletter
+\renewcommand*{\ALG@name}{算法}
+\makeatother
+
 \renewcommand{\lstlistingname}{列表}
 \pagestyle{fancy}
 \fancyfoot[C]{\headfont\thepage}
