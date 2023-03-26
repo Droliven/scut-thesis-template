@@ -1,0 +1,51 @@
+\chapter{攻读硕士学位期间取得的研究成果} %博士/硕士记得选其一
+\pubfont % 论文撰写规范里，这章是5号宋体，\pubfont 设置字号为5号了。但其实很多论文用小四号也OK。
+一、已发表（包括已接受待发表）的论文，以及已投稿、或已成文打算投稿、或拟成文投稿的论文情况\underline{\textbf{（只填写与学位论文内容相关的部分）：}}
+
+\begin{table}
+	\centering{}%
+	\pubfont 
+	%\begin{longtable}{|>{\centering}m{0.5cm}|m{1.8cm}|>{\centering}m{2.8cm}|>{\centering}m{2.5cm}|>{\centering}m{2.2cm}|>{\centering}m{2.cm}|>{\centering}m{1cm}|} % 12.8
+         % \begin{longtable}{|>{\centering}m{0.5cm}|m{1.5cm}|>{\centering}m{3.8cm}|>{\centering}m{3.5cm}|>{\centering}m{1.5cm}|>{\centering}m{1.5cm}|>{\centering}m{1cm}|} % 13.3
+         \begin{longtable}{|>{\centering}m{0.5cm}|>{\centering}m{4.8cm}|>{\centering}m{2.cm}|>{\centering}m{2.2cm}|>{\centering}m{2.1cm}|>{\centering}m{1.5cm}|} % 13.1
+		\hline 
+		\textbf{序号} & \textbf{发表或投稿刊物/会议名称} & \textbf{作者（仅注明第几作者）}   & \textbf{发表年份} & \textbf{与学位论文哪一部分（章、节）相关} &\textbf{被索引收录情况} \tabularnewline
+		\hline 
+		1    & 2021 IEEE/CVF International Conference on Computer Vision (ICCV 2021) \\ CCF A类会议 & 第一作者  & 2021年10月，11467-11476 & 第四章 &  EI \tabularnewline
+		\hline 
+		2	 & the 30th ACM International Conference on Multimedia (ACM MM 2022)\\ CCF A 类会议 & 第一作者  & 2022年10月，5162–5171 & 第五章 & EI \tabularnewline
+		\hline 
+        3	 & 2022 4th International Conference on Communications, Information System and Computer Engineering (CISCE) \\ EI 会议 & 第二作者  & 2022年8月，641-647 & 第二章\\第一节 & EI \tabularnewline
+		\hline
+        4	 & Security and Communication Networks 2022 \\ JCR Q3 期刊 & 第二作者  & 2022年5月，卷 2022 & 其他 & SCI \tabularnewline
+		\hline 
+	\end{longtable}
+\end{table}
+% 2022 4th International Conference on Communications, Information System and Computer Engineering (CISCE)
+% Library Personalized Service System Based on Computer Network Technology
+注：1. 请在“作者”一栏填写本人是第几作者, 例：“第一作者” 或 “导师第一, 本人第二”等; 
+
+\qquad 2.若文章末发表或末被接受，请在 “发表年份”一栏据实填写 “已投稿”, “拟投稿”。
+
+\qquad 不够请另加页。
+
+
+二、与学位内容相关的其它成果（包括专利、著作、获奖项目等）
+
+% 填写示例：
+
+% 专利：已授极一项发明专利，第一发明人，2020
+
+% 著作：参与编写一本著作，第二作者，2020
+
+% 获奖项目：获省部级科技奖一项，第三获奖人，2019
+
+
+
+获奖项目：极点三维图形图像专项奖学金，第一获奖人，2021
+
+获奖项目：三七互娱·粤+赋能奖学金，第一获奖人，2022
+
+% 获奖项目：华南理工大学计算机学院优秀共产党员，第一获奖人，2022
+
+\normalsize % \normalsize可以将下文调回和正文一样的字号，这个随个人喜好。注释掉的话，致谢就就跟随《攻读博士/硕士学位期间取得的研究成果》的字号。

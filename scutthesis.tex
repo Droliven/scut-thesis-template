@@ -1,5 +1,5 @@
-\documentclass[unicode,master]{scutthesis} % 草稿封面，硕士则添加选项master，博士则去掉。使用正式封面时注释该行
-%\documentclass[unicode,master,pdfcover]{scutthesis} %   % 论文正式封面，pdfcover为可选项，终稿再添加，使用草稿封面时注释该行
+%\documentclass[unicode,master]{scutthesis} % 草稿封面，硕士则添加选项master，博士则去掉。使用正式封面时注释该行
+\documentclass[unicode,master,pdfcover]{scutthesis} %   % 论文正式封面，pdfcover为可选项，终稿再添加，使用草稿封面时注释该行
 \usepackage{fontspec,color,array,longtable,graphicx} 
 \usepackage{anyfontsize} %消除字体警告
 \usepackage{enumitem}
@@ -104,6 +104,7 @@
 	\include{chapters/chapter02.tex}%第二章
 	\include{chapters/chapter03.tex}%第三章
 	\include{chapters/chapter04.tex}
+	\include{chapters/conclusion.tex}
 	% 自行根据需要添加章节。
 
 	\backmatter %章节不编号但页码继续
@@ -124,9 +125,10 @@
  	% 只有一个附录
 % 	\include{appendix}
  	% 有多个附录
-	\include{chapters/appendix1.tex} %附录1
-	\include{chapters/appendix2.tex} %附录2
+	% \include{chapters/appendix1.tex} %附录1
+	% \include{chapters/appendix2.tex} %附录2
  	%%%%%%%%%%%%%%%%%%%
-	\include{chapters/pub.tex} %成果
+	 \include{chapters/pub.tex} %终稿成果表
+	 % \include{chapters/pub_db.tex} %盲审成果表
 	\include{chapters/ack.tex} %致谢
 \end{document}
