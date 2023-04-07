@@ -1,5 +1,6 @@
 # 华南理工大学硕士学位论文 LaTeX 模板
 > 在 [蒙超恒](https://github.com/mengchaoheng/SCUT_thesis) 大佬的项目上做了简单修改，可以在 `overleaf` 上直接编译。另外也可以用[yecfly](https://github.com/yecfly/scut-thesis)的模板，但该模板很久未更新。
+> **反馈每章标题与正文间距不合学校规范，以及参考文献格式不对。[蒙超恒](https://github.com/mengchaoheng/SCUT_thesis)的项目好像目前也有这样的问题，请查阅古老版的[yecfly](https://github.com/yecfly/scut-thesis)模板**
 
 ## 注意点
 
